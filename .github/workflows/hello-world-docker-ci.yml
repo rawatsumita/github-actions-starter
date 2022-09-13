@@ -14,7 +14,7 @@ jobs:
     
       - name: Run my own container action
         id: hello-action
-        uses: github-actions-starter@main
+        uses: wulfland/AeviActionsBootcamp/hello-world-docker-action@v1
         with:
           who-to-greet: '@srawat'
           
